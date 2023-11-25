@@ -20,57 +20,37 @@
     <div id="wrap" class="on"> <!-- wrap -->
 
         <div class="container" id="header">
-            <br>
-            <nav class="navbar navbar-expand-lg navbar-light fixed-top">
-                <div class="container">
-                    <a class="navbar-brand" href="#">
-                        <img src="./image/logo.png" alt="...">
-                    </a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse"
-                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav mr-auto">
-                            <li class="nav-item active" data-toggle="modal" data-target="#exampleModal">
-                                <a class="nav-link" href="#">log in <span class="sr-only">(current)</span></a>
-                            </li>
-                            <!-- Modal -->
-                            <li class="nav-item">
-                                <a class="nav-link link" href="#">Link</a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
-                                    aria-expanded="false">
-                                    Dropdown
-                                </a>
-                                <div class="dropdown-menu">
-                                    <a class="dropdown-item" href="#">Action</a>
-                                    <a class="dropdown-item" href="#">Another action</a>
-                                    <div class="dropdown-divider"></div>
-                                    <a class="dropdown-item" href="#">Something else here</a>
-                                </div>
-                            </li>
-                        </ul>
-                        <form class="form-inline my-2 my-lg-0">
-                            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                        </form>
-                    </div>
-                </div>
+            <nav id="navbar-example2" class="fixed-top navbar navbar-light">
+                <a class="navbar-brand" href="#header"><img src="./image/logo.png" alt="#"></a>
+                <ul class="nav nav-pills">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#VISION">@VISION</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#media-contents">@CONTENT</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
+                            aria-expanded="false">@PAGE</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#one">one</a>
+                            <a class="dropdown-item" href="#two">two</a>
+                            <div role="separator" class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#three">three</a>
+                        </div>
+                    </li>
+                </ul>
             </nav>
+            <br>
         </div> <!-- nav -->
 
         <br>
         <hr>
-        <br>
         <div class="container-fluid end">
             <input type="checkbox" class="theme-checkbox">
         </div>
-
         <hr>
+        <br>
 
         <div class="container-fluid">
             <div class="bd-example"> <!-- slide -->
@@ -127,7 +107,7 @@
         <div id="back-img-3"></div>
         <hr>
 
-        <div class="container">
+        <div class="container" id="VISION">
             <div class="row top-content d-flex">
                 <div class="col-4 col-sm-4 col-md-4 col-lg-4">
                     <h1>
@@ -653,8 +633,8 @@
                     </div>
 
                     <div class="input-group mb-3">
-                        <input type="text" class="form-control" placeholder="Your enail"
-                            aria-label="Your enail" aria-describedby="basic-addon2">
+                        <input type="text" class="form-control" placeholder="Your enail" aria-label="Your enail"
+                            aria-describedby="basic-addon2">
                         <div class="input-group-append">
                             <span class="input-group-text" id="basic-addon2">@gmail.com</span>
                         </div>

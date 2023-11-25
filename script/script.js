@@ -39,3 +39,5 @@ searchCLick.addEventListener('click', function(){
         alert(`${rulit}`);
     };
 });
+
+$('body').scrollspy({ target: '#navbar-example2', offset : 100 })
