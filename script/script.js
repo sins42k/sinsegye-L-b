@@ -24,20 +24,4 @@ box.addEventListener("click", function(){
     };
 });
 
-const oli = document.querySelector(".oliverkorea");
-
-oli.addEventListener("click", function(){
-    alert('안녕하세요우~~');
-});
-
-const searchCLick = document.querySelector('.btn-outline-success');
-searchCLick.addEventListener('click', function(){
-    var rulit = search.value;
-    if (rulit == '올리버쌤') {
-        alert(`안녕하세요~~ 올리버썜입니다. 이야~~ 젖탱이보소`);
-    } else {
-        alert(`${rulit}`);
-    };
-});
-
 $('body').scrollspy({ target: '#navbar-example2', offset : 100 })
